@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Roh YuJeong</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+              </a>
+            </li> -->
+            <li class="nav__item">
+              <a href="#project" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> project
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__social">
+              <!-- <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://dribbble.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-dribbble"></i>
+              </a>
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a> -->
+            </div>
+
+            <!-- <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  
+                  <image
+                    class="home__blob-img"
+                    x="12"
+                    y="18"
+                    href="assets/img/perfil.png"
+                  />
+                </g>
+              </svg>
+            </div> -->
+
+            <div class="home__data">
+              <!-- <h1 class="home__title">안녕하세요</h1> -->
+              <h3 class="home__subtitle">Backend developer</h3>
+              <p class="home__description">
+                안녕하세요, 백엔드 개발자 노유정입니다.
+              </p>
+              <p class="home__description">
+                기술을 배우고 적용하는 과정을 즐기며, 꾸준히 성장하기 위해 노력하고 있습니다.
+              </p>
+              <!-- <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a> -->
+            </div>
+          </div>
+
+          <!-- <div class="home_scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div> -->
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <!-- <span class="section__subtitle">My introduction</span> -->
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              안녕하세요, 백엔드 개발자 노유정입니다.<br>
+              사용자에게 신뢰를 줄 수 있는 견고한 시스템을 구축하는 것을 목표로 하며, 새로운 기술을 배우고 성장하는 과정을 즐깁니다. 다양한 프로젝트를 통해 백엔드와 프론트엔드 개발에 대한 실전 경험을 쌓아왔고, 학습한 기술을 프로젝트에 적용하며 실력을 키워가고 있습니다.<br>
+              앞으로는 기술에 대한 깊이 있는 이해와 문제 해결 능력을 더욱 향상시키고, 팀 내에서 협업의 가치를 실현하는 개발자가 되고자 합니다. 꾸준히 학습하며 더 나은 솔루션을 제안할 수 있는 개발자로 성장할 수 있도록 노력하겠습니다.<br>
+            </p>
+
+            <!-- <div class="about__info">
+              <div>
+                <span class="about__info-title">08+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">20+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  project</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name"
+                  >Companies <br />
+                  worked</span
+                >
+              </div> -->
+            </div>
+
+            <!-- <div class="about__buttons">
+              <a
+                download=""
+                href=""
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <!-- <span class="section__subtitle">My technical level</span> -->
+
+        <div class="skills__container container grid">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-server-network-alt skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Backend</h1>
+                <!-- <span class="skills__subtitle">More than</span> -->
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JAVA</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__java"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Spring Boot</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__css"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node.js</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Nest.js</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MySQL</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JWT</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Frontend</h1>
+                <!-- <span class="skills__subtitle">More than</span> -->
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__java"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__css"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Next.js</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">TypeScript</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+                <!-- <div class="skills__bar">
+                  <span class="skills__percentage skill__js"></span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <!-- <section class="qualification section"></section> -->
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="project">
+        <h2 class="section__title">Projects</h2>
+        <!-- <span class="section__subtitle">What i offer</span> -->
+
+        <div class="services__container container grid">
+          <!--==================== SERVICES 1 ====================-->
+          <div class="services__content">
+            <div class="services__gap">
+              <img
+                src="assets/img/whiteclinic1.png"
+                alt=""
+                class="portfolio__img"
+                        />
+              <h3 class="services__title">White Clinic</h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">White Clinic</h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <div class="portfolio section" id="portfolio">
+                  <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                      <!--==================== Img 1 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/whiteclinic1.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 2 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/whiteclinic2.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 3 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/whiteclinic3.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+
+                      <!--==================== Img 4 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/whiteclinic4.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+                    </div>
+          
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="portfolio__data">
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        화이트크리닉이라는 청소 회사의 기사님 관리 프로그램(관리자 페이지) 개발을 목표로 한 팀 프로젝트입니다. 강사님이 외주로 수주한 프로젝트에 팀으로 참여하여 현재 진행 중입니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Skills <br> Next.js, Nest.js(TypeORM), PostgreSQL, React, HTML, CSS, TypeScript</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        담당한 역할<br>
+                        - 고객 및 세척 품목 등록 기능: 고객 및 세척 품목을 통합 관리할 수 있는 등록 페이지를 구현했으며, 세척 품목의 금액은 자동 계산되며 필요시 직접 수정할 수 있도록 구성했습니다.<br>
+                        - Auth 기능 구현 및 테스트 완료: RSA 키를 사용하여 access token과 refresh token 기반 인증을 구현하고, 스웨거로 로그인 기능 테스트를 완료했습니다.<br>
+                        - Role 기반 접근 제어 설정: 관리자 페이지의 Role 기반 접근 제어를 통해 인증된 사용자만 접근할 수 있도록 보안을 강화하고, Role에 따른 권한을 설정하여 접근을 제어했습니다.<br>
+                        - ERD 설계 및 테이블 생성: 초기 기획안을 바탕으로 PostgreSQL에 ERD를 설계하고 테이블을 생성했으며, 프론트엔드 팀과 협력하여 요구에 맞는 데이터 구조를 반영했습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        현재 진행 중인 작업<br>
+                        - DTO 및 서비스, 컨트롤러 구현: 기사님과 고객 관리 관련 페이지의 데이터 처리를 위해, 프론트엔드 타입을 기반으로 DTO, 컨트롤러, 서비스, 엔티티를 설계 및 구현 중입니다. 입력과 관리를 원활하게 하기 위한 데이터 구조를 다듬고 있습니다.<br>
+                        - 기능 테스트 및 조정: Swagger를 사용해 새로 구현한 기능들을 테스트하며, 각 기능이 정상적으로 작동하는지 확인하고 필요한 조정을 진행하고 있습니다.
+                      </p>
+                    </li>
+                    <!-- <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        GitHub <br>
+                        <a href="" class="contact__subtitle"></a>
+                      </p>
+                    </li> -->
+                  </ul>
+                </div>
+
+                <!-- <div class="portfolio__link">
+                  <a
+                  href="https://github.com/Rohyu-jeong/ott"
+                  class="button button--flex button--small portfolio__button"
+                >
+                    Project
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 2 ====================-->
+          <div class="services__content">
+            <div class="services__gap">
+              <img
+                src="assets/img/ott1.png"
+                alt=""
+                class="portfolio__img"
+                        />
+              <h3 class="services__title">OTT</h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">OTT / OTT-Admin</h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <div class="portfolio section" id="portfolio">
+                  <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                      <!--==================== Img 1 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/ott1.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 2 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/ott2.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 3 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/ott3.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+                    </div>
+          
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="portfolio__data">
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        OTT 플랫폼과 관리자 페이지를 각각 구현하여 사용자와 관리자가 원하는 기능을 사용할 수 있도록 개발한 팀 프로젝트입니다. 주요 사용자 인터페이스는 React로, OTT 서비스의 백엔드는 Spring Boot로 구현하였으며, 관리자 페이지는 Next.js와 Express로 개발하였습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Skills <br> React, HTML, CSS, TypeScript, Next.js, Java, SpringBoot(JPA), JWT, MySQL, Node.js(Express)</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        담당한 역할<br>
+                        - Spring Boot를 활용한 백엔드 서버 개발과 ERD 설계를 통한 데이터베이스 구조 설계를 담당했습니다.<br>
+                        - JPA를 사용하여 데이터를 관리하며, 비즈니스 로직을 구현했습니다.<br>
+                        - JWT를 이용하여 사용자 인증과 보안을 구축했습니다.<br>
+                        - Express.js와 Node.js를 사용하여 관리자 페이지의 서버를 개발하였습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        개선점<br>
+                        - Refresh Token 사용 미흡: 보안 강화를 위해 Access Token만 사용하는 대신 Refresh Token을 활용하여 더 안전한 인증 체계를 구축할 필요성을 느꼈습니다. <br>
+                        - Role 기반 접근 제어 부족: 처음에는 관리자 페이지를 따로 만들 계획이 없었기 때문에 DB 구조나 보안에서 역할 기반 접근 제어가 미흡했습니다. 관리자 페이지를 포함한 경우, 이를 고려해 Role에 따라 접근을 제어할 수 있도록 설계하는 것이 더 나았을 것 같습니다.<br>
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        GitHub <br>
+                        <a href="https://github.com/Rohyu-jeong/ott" class="contact__subtitle">https://github.com/Rohyu-jeong/ott</a> <br>
+                        <a href="https://github.com/Rohyu-jeong/ott-admin" class="contact__subtitle">https://github.com/Rohyu-jeong/ott-admin</a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="portfolio__link">
+                  <a
+                  href="https://github.com/Rohyu-jeong/ott"
+                  class="button button--flex button--small portfolio__button"
+                >
+                    Project
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 3 ====================-->
+          <div class="services__content">
+            <div class="services__gap">
+              <img
+                src="assets/img/miniblog1.png"
+                alt=""
+                class="portfolio__img"
+                        />
+              <h3 class="services__title">Mini Blog</h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">Mini Blog</h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <div class="portfolio section" id="portfolio">
+                  <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                      <!--==================== Img 1 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/miniblog1.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 2 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/miniblog2.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 3 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/miniblog3.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+
+                                            <!--==================== Img 4 ====================-->
+                                            <div class="portfolio__content grid swiper-slide">
+                                              <img
+                                                src="assets/img/miniblog4.png"
+                                                alt=""
+                                                class="portfolio__img"
+                                              />
+                                            </div>
+                    </div>
+          
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="portfolio__data">
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        사용자들이 개인 블로그를 생성하고 게시글을 작성하여 공유할 수 있는 플랫폼을 팀 프로젝트로 개발했습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Skills <br> React, HTML, CSS, TypeScript, Java, SpringBoot(JPA), JWT, MySQL, Redis, Docker</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        맡은역할<br>
+                        - React로 게시글 작성 페이지와 게시글 상세보기 페이지를 구현했습니다.<br>
+                        - 게시글에 좋아요 및 댓글 UI를 구현하여 사용자와의 상호작용이 가능하도록 구성했습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        개선점<br>
+                        - 디자인에 대한 구체적인 구상이나 비주얼 요소에 대한 경험이 부족하여, 전체적인 UI와 UX 부분에서 아쉬움이 있었습니다. 향후에는 UI/UX를 고려한 디자인 경험을 쌓아, 시각적으로 더 매력적인 페이지를 구현할 필요성을 느꼈습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        GitHub <br>
+                        <a href="https://github.com/Rohyu-jeong/miniblog" class="contact__subtitle">https://github.com/Rohyu-jeong/miniblog</a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="portfolio__link">
+                  <a
+                  href="https://github.com/Rohyu-jeong/miniblog"
+                  class="button button--flex button--small portfolio__button"
+                >
+                    Project
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--==================== SERVICES 4 ====================-->
+          <div class="services__content">
+            <div class="services__gap">
+              <img
+                src="assets/img/nike1.png"
+                alt=""
+                class="portfolio__img"
+                        />
+              <h3 class="services__title">Nike clone Site</h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">Nike Clone Site</h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <div class="portfolio section" id="portfolio">
+                  <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                      <!--==================== Img 1 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/nike1.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 2 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/nike2.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+          
+                      <!--==================== Img 3 ====================-->
+                      <div class="portfolio__content grid swiper-slide">
+                        <img
+                          src="assets/img/nike3.png"
+                          alt=""
+                          class="portfolio__img"
+                        />
+                      </div>
+                    </div>
+          
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+
+                <div class="portfolio__data">
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        Nike 웹앱을 리메이크하는 팀 프로젝트로, 프론트엔드 기술을 실습하며 OTT 프로젝트 전 역량을 쌓기 위해 진행했습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Skills <br> React, HTML, CSS, TypeScript, Java, SpringBoot, MySQL</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        담당한 역할<br>
+                        - 상품 이미지와 가격, 정보를 수집하여 제품 페이지를 구성했습니다.<br>
+                        - 상품 필터링 기능을 추가해 사용자가 원하는 제품을 쉽게 찾을 수 있도록 구현했습니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        개선점<br>
+                        - 필터링 기능의 세분화: 데이터가 제한적이라 필터링 기능을 세분화하는 데 한계가 있었으며, 다양한 데이터에 맞춘 필터링 설계의 필요성을 느꼈습니다.<br>
+                        - 애니메이션 구현: GSAP 애니메이션 구현에서 어려움을 겪어 팀장과 협업하여 마무리했으며, 향후 애니메이션 관련 기술에 대해 더 깊은 이해를 쌓을 계획입니다.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>
+                        GitHub <br>
+                        <a href="https://github.com/Rohyu-jeong/nike_clone" class="contact__subtitle">https://github.com/Rohyu-jeong/nike_clone</a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="portfolio__link">
+                  <a
+                  href="https://github.com/Rohyu-jeong/nike_clone"
+                  class="button button--flex button--small portfolio__button"
+                >
+                    Project
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <!-- <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper"> -->
+            <!--==================== PORTFOLIO 1 ====================-->
+            <!-- <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">OTT Website</h3>
+                <p class="portfolio__description">
+                  OTT 웹사이트를 클론 / 관리자 페이지를 따로 둬서 관리
+                </p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div> -->
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <!-- <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio2.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Mini Blog</h3>
+                <p class="portfolio__description">Mini Blog 제작</p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div> -->
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <!-- <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Nike Website</h3>
+                <p class="portfolio__description">Nike 웹사이트를 클론</p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div> -->
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <!-- <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">White Clinic</h3>
+                <p class="portfolio__description">
+                  White Clinic 회사 기사님 관리 프로그램 제작 중
+                </p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div> -->
+          <!-- </div> -->
+
+          <!-- Add Arrows -->
+          <!-- <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div> -->
+
+          <!-- Add Pagination -->
+          <!-- <div class="swiper-pagination"></div>
+        </div>
+      </section> -->
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <!-- <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">You have a new project</h2>
+              <p class="project__description">이게 어느 부분인지 모르겠어</p>
+              <a href="#contact" class="button button--flex button--white">
+                Contact Me
+                <i class="uil uil-message"></i>
+              </a>
+            </div>
+
+            <img src="assets/img/project.png" alt="" class="project__img">
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- <section class="testimonial section"></section> -->
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <!-- <span class="section__subtitle">Get in touch</span> -->
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Phone</h3>
+                <span class="contact__subtitle">010.4185.2769</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">yacheku@naver.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Github</h3>
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  class="contact__subtitle"
+                >
+                  https://github.com/Rohyu-jeong
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+            class="home__social-icon"
+          >
+          </a>
+          <!-- <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a href="" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form> -->
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <!-- <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Roh YuJeong</h1>
+                    <span class="footer__subtitle">Backend developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer> -->
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
