@@ -321,10 +321,14 @@ img {
 }
 
 .home__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
   color: #fff;
+}
+
+.home__description {
+  font-size: var(--h3-font-size);
 }
 
 .home__scroll {
