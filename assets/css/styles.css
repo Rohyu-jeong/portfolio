@@ -691,6 +691,12 @@ img {
   left: 20px;
 }
 
+.portfolio__link__sub {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
 .portfolio__video {
   width: 100%;
   border-radius: 0.5rem;
